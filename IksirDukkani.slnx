@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="IksirDukkani.Business/IksirDukkani.Business.csproj" />
+  <Project Path="IksirDukkani.ConsoleUI/IksirDukkani.ConsoleUI.csproj" />
+  <Project Path="IksirDukkani.Core/IksirDukkani.Core.csproj" />
+  <Project Path="IksirDukkani.DataAccess/IksirDukkani.DataAccess.csproj" />
+  <Project Path="IksirDukkani.Entities/IksirDukkani.Entities.csproj" />
+</Solution>
