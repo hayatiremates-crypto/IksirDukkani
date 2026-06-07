@@ -4,7 +4,9 @@ using System.Text;
 
 namespace IksirDukkani.Core.Results
 {
-    internal interface IResult
+    public interface IResult
     {
+        bool BasariliMi { get; }
+        string Mesaj { get; }
     }
 }

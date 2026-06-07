@@ -4,7 +4,19 @@ using System.Text;
 
 namespace IksirDukkani.Core.Results
 {
-    internal class DataResult
+    public class DataResult<T> : Result, IDataResult<T>
     {
+        public T Veri { get; }
+        public DataResult(T veri, bool basariliMi, string mesaj) : base(basariliMi, mesaj)
+        {
+            Veri = veri;
+        }
+        public DataResult(T veri, bool basariliMi) : base(basariliMi)
+        {
+            Veri = veri;
+        }
+        
+        
+    
     }
 }

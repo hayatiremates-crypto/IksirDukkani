@@ -4,7 +4,8 @@ using System.Text;
 
 namespace IksirDukkani.Core.Results
 {
-    internal interface IDataResult
+    public interface IDataResult<T> : IResult
     {
+        T Veri { get; }
     }
 }

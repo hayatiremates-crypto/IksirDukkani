@@ -4,7 +4,21 @@ using System.Text;
 
 namespace IksirDukkani.Core.Results
 {
-    internal class Result
+    public class Result:IResult
     {
+        public bool BasariliMi { get; }
+        public string Mesaj { get; }
+
+        public Result(bool basariliMi, string mesaj)
+        {
+            BasariliMi = basariliMi;
+            Mesaj = mesaj;
+        }
+        public Result(bool basariliMi)
+        {
+            BasariliMi = basariliMi;
+            
+        }
+
     }
 }
