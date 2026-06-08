@@ -11,5 +11,7 @@ namespace IksirDukkani.Business.Abstract
         void OyunuKaydet(OyunDurumu durum);
         List<Iksir> TarifDefteriniGetir();
         Iksir RastgeleSiparisVer();
+       
+        
     }
 }

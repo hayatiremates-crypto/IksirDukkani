@@ -47,5 +47,6 @@ namespace IksirDukkani.Business.Manager
             int index = rnd.Next(_tarifDefteri.Count);
             return _tarifDefteri[index];
         }
+        
     }
 }
