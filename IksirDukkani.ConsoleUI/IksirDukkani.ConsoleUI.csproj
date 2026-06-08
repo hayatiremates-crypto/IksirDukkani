@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="C:\Users\HAYAT\Desktop\HayatİremAtes_25150411015_NYPFinal.cs" Link="HayatİremAtes_25150411015_NYPFinal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\IksirDukkani.Business\IksirDukkani.Business.csproj" />
     <ProjectReference Include="..\IksirDukkani.Core\IksirDukkani.Core.csproj" />
     <ProjectReference Include="..\IksirDukkani.DataAccess\IksirDukkani.DataAccess.csproj" />
