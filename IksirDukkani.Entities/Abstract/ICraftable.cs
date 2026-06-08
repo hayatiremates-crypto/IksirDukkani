@@ -4,7 +4,8 @@ using System.Text;
 
 namespace IksirDukkani.Entities.Abstract
 {
-    internal interface ICraftable
+    public interface ICraftable
     {
+        bool UretilebilirMi(string girilenFormul);
     }
 }

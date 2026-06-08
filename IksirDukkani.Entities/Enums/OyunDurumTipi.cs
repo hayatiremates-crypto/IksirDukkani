@@ -4,7 +4,10 @@ using System.Text;
 
 namespace IksirDukkani.Entities.Enums
 {
-    internal class OyunDurumTipi
+    public enum OyunDurumTipi
     {
+        DevamEdiyor,
+        Kazanildi,
+        Kaybedildi
     }
 }

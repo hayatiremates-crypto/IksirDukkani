@@ -4,7 +4,11 @@ using System.Text;
 
 namespace IksirDukkani.Entities.Enums
 {
-    internal class GirdiTipi
+    public enum GirdiTipi
     {
+        TarifDefteriAc,
+        IksirHazirla,
+        CikisYap,
+        HataliGirdi
     }
 }
