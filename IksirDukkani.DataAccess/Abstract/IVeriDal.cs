@@ -1,10 +1,14 @@
-﻿using System;
+﻿using IksirDukkani.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace IksirDukkani.DataAccess.Abstract
 {
-    internal interface IVeriDal
+    public interface IVeriDal
     {
+        void Kaydet(OyunDurumu durum);
+
+        OyunDurumu Yukle();
     }
 }
